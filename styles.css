@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 /* nav */
 .navbar{
@@ -10,11 +11,10 @@
 .nav-link{
     color: white;
     font-size: 20px;
-    font-family: serif;
     margin-right: 30px;
 }
 .nav-link:hover{
-    color: white;
+    color: orange;
 }
 .navbar-brand{
     padding-left: 30px;
@@ -28,12 +28,9 @@ footer{
     font-size: small;
 }
 .nav-link-footer:hover{
-    color: white;
+    color: orange;
     font-size: large;
 }
 .icono{
     padding-right: 15px;
-}
-.social{
-    font-family: serif;
 }
