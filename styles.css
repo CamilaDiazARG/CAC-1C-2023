@@ -10,7 +10,7 @@
 }
 .nav-link{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     margin-right: 30px;
 }
 .nav-link:hover{
@@ -19,17 +19,25 @@
 .navbar-brand{
     padding-left: 30px;
 }
+
+body{
+    position: relative;
+    min-height: 100vp;
+    padding-bottom: 8em;
+}
+
 /* footer */
 footer{
     background-color: black;
     font-size: small;
+    position:absolute; 
+    bottom: 0;
+    width: 100%;
 }
 .nav-link-footer{
     font-size: small;
 }
-.nav-link-footer:hover{
-    color: orange;
-}
 .icono{
     padding-right: 15px;
 }
+
